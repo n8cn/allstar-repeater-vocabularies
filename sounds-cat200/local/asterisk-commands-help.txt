@@ -1,0 +1,190 @@
+                        !  Execute a shell command
+               abort halt  Cancel a running halt
+       ael debug contexts  Enable AEL contexts debug (does nothing)
+         ael debug macros  Enable AEL macros debug (does nothing)
+           ael debug read  Enable AEL read debug (does nothing)
+         ael debug tokens  Enable AEL tokens debug (does nothing)
+              ael nodebug  Disable AEL debug messages
+               ael reload  Reload AEL configuration
+                agi debug  Enable AGI debugging
+            agi debug off  Disable AGI debugging
+             agi dumphtml  Dumps a list of agi commands in html format
+                 agi show  List AGI commands or specific help
+               cdr status  Display the CDR status
+       core clear profile  Clear profiling info
+   core set debug channel  Enable/disable debugging on a channel
+           core set debug  Set level of debug chattiness
+       core set debug off  Turns off debug chattiness
+          core set global  Set global dialplan variable
+         core set verbose  Set level of verboseness
+   core show applications  Shows registered dialplan applications
+    core show application  Describe a specific dialplan application
+   core show audio codecs  Displays a list of audio codecs
+       core show channels  Display information on channels
+        core show channel  Display information on a specific channel
+   core show channeltypes  List available channel types
+    core show channeltype  Give more details on that channel type
+         core show codecs  Displays a list of codecs
+          core show codec  Shows a specific codec
+core show config mappings  Display config mappings (file names to config engines)
+   core show file formats  Displays file formats
+   core show file version  List versions of files used to build Asterisk
+      core show functions  Shows registered dialplan functions
+       core show function  Describe a specific dialplan function
+        core show globals  Show global dialplan variables
+          core show hints  Show dialplan hints
+   core show image codecs  Displays a list of image codecs
+  core show image formats  Displays image formats
+        core show license  Show the license(s) for this copy of Asterisk
+        core show profile  Display profiling info
+       core show switches  Show alternative switches
+        core show threads  Show running threads
+    core show translation  Display translation matrix
+         core show uptime  Show uptime information
+        core show version  Display version info
+   core show video codecs  Displays a list of video codecs
+       core show warranty  Show the warranty (if any) for this copy of Asterisk
+    dahdi destroy channel  Destroy a channel
+            dahdi restart  Fully restart DAHDI channels
+      dahdi show cadences  List cadences
+      dahdi show channels  Show active DAHDI channels
+       dahdi show channel  Show information on a channel
+        dahdi show status  Show all DAHDI cards status
+             database del  Removes database key/value
+         database deltree  Removes database keytree/values
+             database get  Gets database value
+             database put  Adds/updates database value
+            database show  Shows database contents
+         database showkey  Shows database contents
+   dialplan add extension  Add new extension into context
+   dialplan add ignorepat  Add new ignore pattern
+     dialplan add include  Include context in other context
+          dialplan reload  Reload extensions and *only* extensions
+dialplan remove extension  Remove a specified extension
+dialplan remove ignorepat  Remove ignore pattern from context
+  dialplan remove include  Remove a specified include from context
+            dialplan show  Show dialplan
+           dnsmgr refresh  Performs an immediate refresh
+            dnsmgr reload  Reloads the DNS manager configuration
+            dnsmgr status  Display the DNS manager status
+          echolink dbdump  Dump entire echolink db
+         echolink dbflush  Flushing echolink db
+           echolink dbget  Look up echolink db entry
+     echolink debug level  Enable echolink debugging
+          echolink reload  Reload echolink configuration
+             feature show  Lists configured features
+    feature show channels  List status of feature channels
+             file convert  Convert audio file
+               g729 debug  Toggle g729 codec frame size statistics
+      group show channels  Display active channels with group(s)
+                     help  Display help list, or specific help on a command
+         http show status  Display HTTP server status
+       iax2 dump registry  Dump IAX registration data
+           iax2 provision  Provision an IAX device
+      iax2 prune realtime  Prune a cached realtime lookup
+              iax2 reload  Reload IAX configuration
+           iax2 set debug  Enable IAX debugging
+        iax2 set debug jb  Enable IAX jitterbuffer debugging
+    iax2 set debug jb off  Disable IAX jitterbuffer debugging
+       iax2 set debug off  Disable IAX debugging
+     iax2 set debug trunk  Enable IAX trunk debugging
+ iax2 set debug trunk off  Disable IAX trunk debugging
+          iax2 show cache  Display IAX cached dialplan
+iax2 show callnumber usag  Show current entries in ip Call number limit table
+       iax2 show channels  List active IAX channels
+       iax2 show firmware  List available IAX firmwares
+       iax2 show netstats  List active IAX channel netstats
+          iax2 show peers  List defined IAX peers
+           iax2 show peer  Show details on specific IAX peer
+   iax2 show provisioning  Display iax provisioning
+       iax2 show registry  Display IAX registration status
+          iax2 show stats  Display IAX statistics
+        iax2 show threads  Display IAX helper thread info
+          iax2 show users  List defined IAX users
+        iax2 test losspct  Set IAX2 incoming frame loss percentage
+           indication add  Add the given indication to the country
+        indication remove  Remove the given indication from the country
+          indication show  Display a list of all countries/indications
+                keys init  Initialize RSA key passcodes
+                keys show  Displays RSA key information
+      local show channels  List status of local channels
+              logger mute  Toggle logging output to a console
+            logger reload  Reopens the log files
+            logger rotate  Rotates and reopens the log files
+     logger show channels  List configured log channels
+     manager show command  Show a manager interface command
+    manager show commands  List manager interface commands
+   manager show connected  List connected manager interface users
+      manager show eventq  List manager interface queued events
+       manager show users  List configured manager users
+        manager show user  Display information on a specific manager user
+               mixmonitor  Execute a MixMonitor command.
+              module load  Load a module by name
+            module reload  Reload configuration
+              module show  List modules and info
+         module show like  List modules and info
+            module unload  Unload a module by name
+         no debug channel  
+                originate  Originate a call
+             radio active  Change commanded device
+                radio key  Simulate Rx Signal Present
+          radio set debug  Radio Debug
+      radio set debug off  Radio Debug
+         radio set xdebug  Radio set xpmr debug level
+               radio tune  Radio Tune
+              radio unkey  Simulate Rx Signal Lusb
+            realtime load  Used to print out RealTime variables.
+          realtime update  Used to update RealTime variables.
+       restart gracefully  Restart Asterisk gracefully
+              restart now  Restart Asterisk immediately
+  restart when convenient  Restart Asterisk at empty call volume
+                  rpt cmd  Execute a DTMF function
+     rpt core debug level  Enable app_rpt kb4fxc_debugging
+   rpt core disable level  Enable app_rpt kb4fxc_disable
+          rpt debug level  Enable app_rpt debugging
+                 rpt dump  Dump app_rpt structs for debugging
+                  rpt fun  Execute a DTMF function
+                 rpt fun1  Execute a DTMF function
+             rpt irlpplay  Play Back an Audio File Locally
+            rpt linkslist  Dump linkslist statistics
+           rpt localnodes  Dump list of local node numbers
+            rpt localplay  Play Back an Audio File Locally
+               rpt lookup  Perform a node database lookup for <node number>
+               rpt lstats  Dump link statistics
+                rpt nodes  Dump node list
+                 rpt page  Page a user on a node
+             rpt playback  Play Back an Audio File Globally
+               rpt reload  Reload app_rpt config
+              rpt restart  Restart app_rpt
+              rpt sendall  Send a Text message to all
+             rpt sendtext  Send a Text message to specific node
+               rpt setvar  Set an Asterisk channel variable
+             rpt showvars  Display Asterisk channel variables
+                rpt stats  Dump node statistics
+                rpt xnode  Dump extended info
+            rtcp debug ip  Enable RTCP debugging on IP
+               rtcp debug  Enable RTCP debugging
+           rtcp debug off  Disable RTCP debugging
+               rtcp stats  Enable RTCP stats
+           rtcp stats off  Disable RTCP stats
+             rtp debug ip  Enable RTP debugging on IP
+                rtp debug  Enable RTP debugging
+            rtp debug off  Disable RTP debugging
+                 say load  set/show the say mode
+         show parkedcalls  Lists parked calls
+              soft hangup  Request a hangup on a given channel
+          stop gracefully  Gracefully shut down Asterisk
+                 stop now  Shut down Asterisk immediately
+     stop when convenient  Shut down Asterisk at empty call volume
+               stun debug  Enable STUN debugging
+           stun debug off  Disable STUN debugging
+              susb active  Change commanded device
+                 susb key  Simulate Rx Signal Present
+           susb set debug  Radio Debug
+       susb set debug off  Radio Debug
+                susb tune  Radio Tune
+               susb unkey  Simulate Rx Signal Lusb
+          transcoder show  Display DAHDI transcoder utilization.
+              udptl debug  Enable UDPTL debugging
+           udptl debug ip  Enable UDPTL debugging on IP
+          udptl debug off  Disable UDPTL debugging
